@@ -1,0 +1,22 @@
+{
+  "name": "pnotify",
+  "version": "1.0.0",
+  "description": "library connect",
+  "homepage": " https://thetureyprogramist.github.io/pnotify/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /pnotify",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "author": "Діма",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.14.4"
+  },
+  "devDependencies": {
+    "posthtml-include": "^2.0.1"
+  }
+}
